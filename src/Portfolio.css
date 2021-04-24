@@ -134,4 +134,9 @@ footer #Email {
         font-size: 20px;
         text-align: center;
     }
+
+    .Biography h3 {
+        width: 300px;
+        font-size: 20px;
+    }
 }
