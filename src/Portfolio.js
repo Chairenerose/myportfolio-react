@@ -29,7 +29,7 @@ export default function Portfolio() {
                     </li>
 
                     <li>
-                        <img className="profilePhoto" src={profile} />
+                        <img className="profilePhoto" src={profile} alt="chairene" />
                     </li>
 
                 </ul>
@@ -48,9 +48,9 @@ export default function Portfolio() {
                 <h3>Chairene Chidozie</h3>
                 <div className="connect">
                     <ul>
-                        <li> <a href="https://www.linkedin.com/in/chairene-chidozie-1b08a3203/" target="_blanket" >LinkedIn</a></li>
-                        <li><a href="https://github.com/Chairenerose?tab=overview&from=2021-03-01&to=2021-03-31" id="Git" target="_blanket">GitHub</a></li>
-                        <li><a href="mailto:chairenecodes@icloud.com" id="Email" target="_blanket" >Email</a></li>
+                        <li> <a href="https://www.linkedin.com/in/chairene-chidozie-1b08a3203/" target="_blanket" rel="noreferrer">LinkedIn</a></li>
+                        <li><a href="https://github.com/Chairenerose?tab=overview&from=2021-03-01&to=2021-03-31" id="Git" target="_blanket" rel="noreferrer">GitHub</a></li>
+                        <li><a href="mailto:chairenecodes@icloud.com" id="Email" target="_blanket" rel="noreferrer">Email</a></li>
                     </ul>
                 </div>
             </footer>

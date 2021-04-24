@@ -15,8 +15,8 @@ export default function Certificates() {
             <div className="Certificates-display">
                 <ul>
                     <li>
-                        <a href={intropdf} target="_blank">
-                            <img src={intro} width="300" />
+                        <a href={intropdf} target="_blank" rel="noreferrer">
+                            <img src={intro} width="300" alt="codingcertificate" />
                         </a>
                     </li>
                     <li>(click to download)</li>
@@ -24,8 +24,8 @@ export default function Certificates() {
                 </ul>
                 <ul>
                     <li>
-                        <a href={frontendpdf} target="_blank">
-                            <img src={frontend} width="300" />
+                        <a href={frontendpdf} target="_blank" rel="noreferrer">
+                            <img src={frontend} width="300" alt="codingcertificate" />
                         </a>
                     </li>
                     <li>(click to download)</li>
@@ -33,8 +33,8 @@ export default function Certificates() {
                 </ul>
                 <ul>
                     <li>
-                        <a href={reactpdf} target="_blank">
-                            <img src={reactphoto} width="300" />
+                        <a href={reactpdf} target="_blank" rel="noreferrer">
+                            <img src={reactphoto} width="300" alt="codingcertificate" />
                         </a>
                     </li>
                     <li>(click to download)</li>

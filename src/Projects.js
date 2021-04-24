@@ -13,18 +13,18 @@ export default function Projects() {
 
                 <ul className="Projects-one">
                     <li id="weatherapp">
-                        <a href="https://zen-babbage-2894e1.netlify.app/" target="_blank">
+                        <a href="https://zen-babbage-2894e1.netlify.app/" target="_blank" rel="noreferrer">
 
-                            <img id="weatherapp" src={Weatherapp} />
+                            <img id="weatherapp" src={Weatherapp} alt="weatherapp" />
                         </a>
 
 
 
                     </li>
                     <li id="friendsapp">
-                        <a href="https://pensive-bhaskara-72646f.netlify.app/" target="_blank">
+                        <a href="https://pensive-bhaskara-72646f.netlify.app/" target="_blank" rel="noreferrer">
 
-                            <img id="friendsofmadina" src={FOM} />
+                            <img id="friendsofmadina" src={FOM} alt="ngoapp" />
 
                         </a>
                     </li>
@@ -35,17 +35,17 @@ export default function Projects() {
 
                     <li id="ilariaapp">
 
-                        <a href="https://frosty-northcutt-f31e8f.netlify.app/" target="_blank">
+                        <a href="https://frosty-northcutt-f31e8f.netlify.app/" target="_blank" rel="noreferrer">
 
 
-                            <img id="ilariaport" src={Ilariaport} />
+                            <img id="ilariaport" src={Ilariaport} alt="portfolio" />
                         </a>
 
                     </li>
                     <li id="shreddyapp">
-                        <a href="https://relaxed-leakey-b73f90.netlify.app/" target="_blank">
+                        <a href="https://relaxed-leakey-b73f90.netlify.app/" target="_blank" rel="noreferrer">
 
-                            <img id="shreddy" src={Shreddy} />
+                            <img id="shreddy" src={Shreddy} alt="shreddy" />
                         </a>
 
 
