@@ -1,0 +1,88 @@
+.Projects-one {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.Projects-two  {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Project-photos img {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.Project-photos {
+   margin: 0 auto;
+   display: block;
+   text-align: center;
+}
+
+#friendsofmadina {
+ 
+    margin-left: 10px;
+}
+
+#shreddy {
+
+    margin-left: 10px;
+}
+
+#project-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #67001a;
+    font-size: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+   
+}
+
+#weatherapp img{
+    box-shadow: 5px 5px 5px 5px #b8a393;
+}
+
+#friendsapp img{
+    box-shadow: 5px 5px 5px 5px #b8a393;
+}
+
+#ilariaapp img{
+    box-shadow: 5px 5px 5px 5px #b8a393;
+}
+
+#shreddyapp img{
+    box-shadow: 5px 5px 5px 5px #b8a393;
+}
+
+
+
+
+@media (max-width: 800px) {
+    .Projects-one{
+        flex-direction: column;
+        
+    }
+
+    .Projects-two{
+        flex-direction: column;
+        
+    }
+
+    #friendsapp {
+        margin-top: 10px;
+    }
+
+    #shreddyapp {
+        margin-top: 10px;
+    }
+}

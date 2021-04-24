@@ -1,0 +1,26 @@
+.Certificates-display ul {
+    list-style: none;
+}
+
+.Certificates-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#certificate-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #67001a;
+    font-size: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+
+    .Certificates-display  {
+      flex-direction: column;
+    }
+}

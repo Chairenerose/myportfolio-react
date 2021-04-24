@@ -1,0 +1,79 @@
+.Menu-links ul {
+    display: flex;
+    cursor: pointer;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    color: #67001a;
+    
+}
+
+.Projects {
+    border: solid 3px;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+
+
+.Certificates {
+    border: solid 3px;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+
+
+
+.Hover-links {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    list-style: none;
+
+}
+.Skills {
+    border: solid 3px;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+}
+
+.link-output {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+@media (max-width: 800px) {
+    .Menu-links ul {
+        flex-direction: column;
+    }
+
+    .Hover-links {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .Projects {
+        margin-right: 0px;
+    }
+
+    .Certificates {
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+
+}
