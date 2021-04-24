@@ -1,9 +1,9 @@
 import intro from "./images/introcoding.png";
-import intropdf from "./images/introcoding.pdf";
 import frontend from "./images/frontend.png";
-import frontendpdf from "./images/frontend.pdf";
 import reactphoto from "./images/react.png";
-import reactpdf from "./images/react.pdf";
+import intropdf from "./images/introcodingpdf.pdf";
+import frontendpdf from "./images/frontendpdf.pdf";
+import reactpdf from "./images/reactpdf.pdf";
 import "./Certificates.css"
 
 import React from "react";
