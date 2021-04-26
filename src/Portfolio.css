@@ -113,11 +113,17 @@ footer #Email {
     }
      .Home ul {
          flex-direction: column;
+         padding-right: 30px;
+         margin-left: 20px;
      }
    
 
     .connect ul {
         flex-direction: column;
+    }
+
+    footer {
+        width: 500px;
     }
 
     footer #Git {
