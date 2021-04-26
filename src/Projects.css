@@ -70,11 +70,13 @@
 @media (max-width: 800px) {
     .Projects-one{
         flex-direction: column;
+        margin-right: 30px;
         
     }
 
     .Projects-two{
         flex-direction: column;
+        margin-right: 30px;
         
     }
 

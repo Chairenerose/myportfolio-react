@@ -66,13 +66,17 @@
     }
 
     .Projects {
-        margin-right: 0px;
+        margin-right: 10px;
     }
 
     .Certificates {
-        margin-right: 0px;
+        margin-right: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    .Skills {
+        margin-right: 10px;
     }
     
 
