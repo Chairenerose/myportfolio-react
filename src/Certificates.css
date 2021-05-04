@@ -22,6 +22,10 @@
 
     .Certificates-display  {
       flex-direction: column;
-      margin-right: 80px;
+      margin-left: 90px;
+    }
+
+    #certificate-title {
+        margin-left: 90px;
     }
 }

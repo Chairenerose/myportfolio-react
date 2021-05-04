@@ -58,6 +58,7 @@
 @media (max-width: 800px) {
     .Menu-links ul {
         flex-direction: column;
+        margin-left: 100px;
     }
 
     .Hover-links {

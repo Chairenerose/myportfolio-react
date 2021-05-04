@@ -54,6 +54,7 @@
 @media (max-width: 800px) {
     .skills-list {
        flex-direction: column;
+       margin-left: 90px;
     }
 
     .creative {
@@ -68,6 +69,10 @@
         font-size: 15px;
         height: 200px;
         width: 260px;
+    }
+
+    #skills-title {
+        margin-left: 90px;
     }
 
 

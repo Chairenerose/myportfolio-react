@@ -71,13 +71,15 @@
 @media (max-width: 800px) {
     .Projects-one{
         flex-direction: column;
-        margin-right: 80px;
+        margin-left: 60px;
         
     }
 
     .Projects-two{
         flex-direction: column;
-        margin-right: 80px;
+        margin-left: 60px;
+        
+       
         
     }
 
@@ -87,5 +89,9 @@
 
     #shreddyapp {
         margin-top: 10px;
+    }
+
+    #project-title {
+        margin-left: 90px;
     }
 }

@@ -121,6 +121,11 @@ footer #Email {
          padding-right: 30px;
        
      }
+
+     .Home {
+         margin-left: 50px;
+         width: 400px;
+     }
    
 
     .connect ul {
@@ -152,8 +157,8 @@ footer #Email {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     footer {
-        width: 600px
+        width: 500px
     }
 }
