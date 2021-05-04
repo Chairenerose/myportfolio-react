@@ -57,8 +57,19 @@
 
 @media (max-width: 800px) {
     .Menu-links ul {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+}
+
+
+
+
+@media (max-width: 500px) {
+    .Menu-links ul {
         flex-direction: column;
         margin-left: 100px;
+         margin-right: 0px;
     }
 
     .Hover-links {

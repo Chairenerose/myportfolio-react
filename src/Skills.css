@@ -54,6 +54,18 @@
 @media (max-width: 800px) {
     .skills-list {
        flex-direction: column;
+       margin-left: 0px;
+    }
+
+    .creative {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .skills-list {
+       flex-direction: column;
        margin-left: 90px;
     }
 

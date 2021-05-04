@@ -108,6 +108,36 @@ footer #Email {
 
 
 @media (max-width: 800px) {
+     .profilePhoto {
+        width: 200px;
+       display: block;
+       margin: 0 auto;
+        border-radius: 50%;
+        
+        
+    }
+
+     .Home ul {
+         flex-direction: column;
+         padding-right: 30px;
+       
+     }
+
+     .Home {
+        margin-left: 30px;
+         width: 600px;
+     }
+
+      .Biography h1 {
+        font-size: 40px;
+        text-align: center;
+        
+    }
+
+
+}
+
+@media (max-width: 500px) {
     .profilePhoto {
         width: 200px;
        display: block;
