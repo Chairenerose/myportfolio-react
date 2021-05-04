@@ -7,7 +7,7 @@ import profile from "./images/chairene.jpeg";
 export default function Portfolio() {
 
     return (
-        <div>
+        <div className="container">
 
             <div className="Home">
 

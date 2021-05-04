@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import FOM from "./images/friendsofmadina.jpg";
+import FOICES from "./images/foices.png";
 import Shreddy from "./images/shreddyapp.jpg";
 import Weatherapp from "./images/weatherapp.jpg";
 import Ilariaport from "./images/ilariaportfolio.jpg";
@@ -21,10 +21,10 @@ export default function Projects() {
 
 
                     </li>
-                    <li id="friendsapp">
-                        <a href="https://pensive-bhaskara-72646f.netlify.app/" target="_blank" rel="noreferrer">
+                    <li id="foicesapp">
+                        <a href="https://www.f-oice-s.com/home.html" target="_blank" rel="noreferrer">
 
-                            <img id="friendsofmadina" src={FOM} alt="ngoapp" />
+                            <img id="foicesphoto" src={FOICES} alt="foicesarticle" />
 
                         </a>
                     </li>

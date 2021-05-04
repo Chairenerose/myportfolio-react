@@ -1,4 +1,8 @@
 
+
+
+
+
 body {
     background-color: #f1d9c6;
    
@@ -61,9 +65,10 @@ body {
 
 footer {
     position: absolute;
-    bottom: auto;
+    margin-top: 130px;
     background-color: #340000;
     width: 100%;
+    bottom: auto;
 }
 
 .connect ul {
