@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Certificates from "./Certificates";
+import Designs from "./Designs";
 
 import "./Portlinks.css"
 
@@ -9,7 +10,9 @@ export default function Portlinks() {
     let [projectTitle, setProject] = useState();
     let [certificateTitle, setCertificate] = useState();
     let [skillsTitle, setSkills] = useState();
+    let [designsTitle, setDesigns] = useState();
     let [showProjects, setProjectShow] = useState();
+    
 
     function Project() {
         return (
@@ -26,6 +29,12 @@ export default function Portlinks() {
     function Skill() {
         return (
             setSkills("Skills")
+        )
+    }
+
+    function Design() {
+        return (
+            setDesigns("Designs")
         )
     }
 
@@ -47,6 +56,12 @@ export default function Portlinks() {
         )
     }
 
+    function myDesigns() {
+        return (
+            setProjectShow(<Designs />)
+        )
+    }
+
 
     return (
         <div>
@@ -62,6 +77,9 @@ export default function Portlinks() {
                     <li>
                         <div className="showSkill">{skillsTitle}</div>
                     </li>
+                    <li>
+                        <div className="showDesigns">{designsTitle}</div>
+                    </li>
                 </ul>
                 <ul>
 
@@ -72,6 +90,7 @@ export default function Portlinks() {
                     </li>
                     <li><div onMouseEnter={Certificate} onMouseLeave={() => setCertificate(false)} className="Certificates" onClick={myCertificates}>C</div></li>
                     <li><div onMouseEnter={Skill} onMouseLeave={() => setSkills(false)} className="Skills" onClick={mySkills}>S</div></li>
+                    <li><div onMouseEnter={Design} onMouseLeave={() => setDesigns(false)} className="Designs" onClick={myDesigns}>D</div></li>
 
                 </ul>
 

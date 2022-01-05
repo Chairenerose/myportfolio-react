@@ -50,6 +50,16 @@
     text-align: center;
 }
 
+.Designs {
+    border: solid 3px;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    margin-left: 10px;
+}
+
 .link-output {
     margin-top: 50px;
     margin-left: 60px;
@@ -89,6 +99,11 @@
 
     .Skills {
         margin-right: 10px;
+    }
+
+    .Designs {
+        margin-top: 10px;
+        margin-right: 16px;
     }
     
 

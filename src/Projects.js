@@ -4,6 +4,7 @@ import FOICES from "./images/foices.png";
 import Shreddy from "./images/shreddyapp.jpg";
 import Weatherapp from "./images/weatherapp.jpg";
 import Ilariaport from "./images/ilariaportfolio.jpg";
+import Fomapp from "./images/friendsofmadina.jpg";
 
 export default function Projects() {
     return (
@@ -50,6 +51,18 @@ export default function Projects() {
 
 
                     </li>
+
+                  
+                </ul>
+
+                <ul className="Projects-three">
+
+                    <li id="fomapp">
+                        <a href="http://www.unitedfriendsofmadina.org/index.html" target="_blank" rel="noreferrer">
+                            <img id="friendsofmadina" src={Fomapp} alt="fomapp" />
+                        </a>
+                    </li>
+                  
                 </ul>
             </div>
         </div>);
