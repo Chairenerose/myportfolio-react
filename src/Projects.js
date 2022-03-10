@@ -58,7 +58,7 @@ export default function Projects() {
                 <ul className="Projects-three">
 
                     <li id="fomapp">
-                        <a href="http://www.unitedfriendsofmadina.org/index.html" target="_blank" rel="noreferrer">
+                        <a href="https://pensive-bhaskara-72646f.netlify.app/index.html" target="_blank" rel="noreferrer">
                             <img id="friendsofmadina" src={Fomapp} alt="fomapp" />
                         </a>
                     </li>
