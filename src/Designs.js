@@ -2,6 +2,7 @@ import React from "react";
 import "./Designs.css";
 import Femmerebelle from "./images/femmerebelle.png";
 import Nanafofie from "./images/nanafofie.png";
+import DoctorIbrow from "./images/DoctorIbrow.png"
 
 export default function Designs() {
     return (
@@ -23,6 +24,13 @@ export default function Designs() {
                             <img id="nanafofieapp" src={Nanafofie} alt="Nanafofie" />
                         </a>
                     </li>
+                    <li id="doctoribrowapp">
+                        <a href="https://doctoribrow.com/" target="_blank" rel="noreferrer">
+
+                            <img id="doctoribrowapp" src={DoctorIbrow} alt="doctoribrow" />
+                        </a>
+                    </li>
+
                 </ul>
             </div>
         </div>
