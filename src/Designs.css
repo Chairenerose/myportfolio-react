@@ -30,6 +30,15 @@
      margin-left: 20px;
  }
 
+ #doctoribrowapp img{
+    box-shadow: 5px 5px 5px 5px #b8a393;
+     margin-bottom: 20px;
+     margin-left: 20px;
+ }
+
+
+
+
  @media (max-width: 800px) {
     .Designs-one {
         flex-direction: column;

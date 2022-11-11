@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: #f1d9c6;
+    background-color: #F2F5FD;
    
 }
 .Biography h1 {
@@ -12,7 +12,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-family: 'Playfair Display', serif;
-    color: #67001a;
+    color: #60597B;
     
 }
 
@@ -21,7 +21,7 @@ body {
     letter-spacing: 5px;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: #340000;
+    color: #60597B;
 }
 
 .Biography ul {
@@ -35,7 +35,7 @@ body {
     text-align: center;
     letter-spacing: 2px;
     text-transform: capitalize;
-    color: #340000;
+    color: #60597B;
     font-weight: 200px;
     
 }
@@ -53,7 +53,7 @@ body {
    align-items: center; 
    justify-content: center;
    display: flex;
-   box-shadow: 5px 5px 5px 5px #b8a393;
+   box-shadow: 5px 5px 5px 5px #D1CDDF;
    margin: 20px;
    
 }
@@ -66,7 +66,7 @@ body {
 footer {
     position: absolute;
     margin-top: 130px;
-    background-color: #340000;
+    background-color: #D1CDDF;
     width: 100%;
     bottom: auto;
 }
@@ -76,16 +76,16 @@ footer {
     list-style-type: none;
     justify-content: center;
     align-items: center;
-    color: #f1d9c6;
+    color: #60597B;
     
 }
 
 .connect a:active {
-    color: #ffffff;
+    color: #60597B
 }
 
 .connect a {
-    color: #f1d9c6;
+    color: #60597B;
     font-size: 19px;
     text-decoration: none;
     letter-spacing: 5px;
@@ -96,7 +96,7 @@ footer #Git {
 
 footer h3 {
     text-align: center;
-    color: #f1d9c6;
+    color: #60597B;
     letter-spacing: 10px;
     text-transform: uppercase;
     font-weight: lighter;
