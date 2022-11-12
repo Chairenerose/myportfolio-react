@@ -11,7 +11,7 @@ export default function Skills() {
                 <div className="web-developer">
                     <h3>Web Developer Skills</h3>
                     <ul>
-                        <li>HTML and CSS</li>
+                        <li>HTML/CSS</li>
                         <li>Responsive design</li>
                         <li>JavaScript/jQuery</li>
                         <li>JavaScript Library: React</li>
