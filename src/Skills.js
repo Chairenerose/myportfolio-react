@@ -21,10 +21,10 @@ export default function Skills() {
                 <div className="creative">
                     <h3>Creative Skills</h3>
                     <ul>
-                        <li>Problem-solving</li>
-                        <li>Canva Graphic Design</li>
+                        <li>Branding</li>
+                        <li>Content development</li>
                         <li>Wireframing</li>
-                        <li>Open-mindedness</li>
+                        <li>Visual Communication</li>
                     </ul>
                 </div>
             </div>
